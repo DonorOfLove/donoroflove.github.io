@@ -1,0 +1,138 @@
+body {
+    background-color: #0f0a1a;
+    color: white;
+    display: flex;
+    font-size: 1.4vw;
+    font-family: "Comic Sans MS";
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+a {
+    color: #c576e2;
+}
+
+.main {
+    background-color: #6919b3;
+    padding: 1vw;
+    width: 40%;
+}
+
+.second {
+    padding: 1vw;
+    background-color: #181818;
+    width: 60%;
+    color: #ececec;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #999999;
+}
+
+.contacts {
+    list-style: none;
+}
+
+h3 {
+    width: 100%;
+    background-color: #5d169e;
+    padding: 1vw;
+    margin-left: -1vw;
+}
+
+h4 {
+    color: #d083ef;
+}
+
+h4:after {
+    width: 45vw;
+    height: 0.2vw;
+    background-color: #d280ee;
+    display: inline-block;
+    margin-top: 1vw;
+    content: '';
+    position: absolute;
+    margin-left: 1vw;
+}
+
+.full-name {
+    text-align: center
+}
+
+.profession {
+    text-align: center
+}
+
+.me {
+    width: 100%;
+    border-radius: 5vw
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: right;
+}
+
+.buttons button {
+    background-color: #7b27c9;
+    border: 2px solid #6919b3;
+    color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 1vw;
+    font-family: "Comic Sans MS";
+    font-size: 10px;
+    margin-right: 2vw;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 4.2vw;
+        flex-direction: column;
+
+    }
+
+    .main {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .second {
+
+        width: 100%;
+        padding-bottom: 10vw;
+    }
+    .buttons{
+        width: 100%;
+
+
+        position: absolute;
+        top:0;
+        justify-content: right;
+
+    }
+.buttons button{
+    margin: 0;
+
+}
+    h4:after {
+        width: 120%;
+        margin-top: 3vw;
+    }
+
+    .me {
+
+        margin-left: -1.7vw
+    }
+
+    ul {
+        padding: 0
+    }
+}
