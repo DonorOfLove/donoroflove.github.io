@@ -73,7 +73,6 @@ h4:after {
 }
 
 .buttons {
-
     display: flex;
     justify-content: right;
 }
@@ -83,7 +82,7 @@ h4:after {
     border: 2px solid #6919b3;
     color: white;
     height: 25px;
-    width: 70px;
+    width: 80px;
     border-radius: 1vw;
     font-family: "Comic Sans MS";
     font-size: 10px;
