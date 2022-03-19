@@ -20,7 +20,7 @@ const projects = document.getElementById('projects')
 const about_text = document.getElementById('about_text'), about = document.getElementById('about'),
     everlast = document.getElementById('everlast'), todo = document.getElementById('todo'),
     rps = document.getElementById('rps'),
-    git = document.getElementById('git')
+    git = document.getElementById('git'), musicPartCalc = document.getElementById('musicPartCalc')
 
 ruBtn.addEventListener('click', () => {
     languages.textContent = 'ЯЗЫКИ:', eng.innerText = 'Английский:b1', ru.innerText = "Русский: родной",
@@ -32,8 +32,8 @@ ruBtn.addEventListener('click', () => {
     projects.textContent = 'Мои проекты:', about.textContent = 'Обо мне:', about_text.textContent = 'В свободное от работы и учебы вреся,' +
         ' я занимаюсь музыкой(соло гитарист в группе), кастомизацией одежды, спортом. На текущий момент продолжаю изучать фронт-енд, и жажду получать' +
         ' реальный коммерческий опыт на реальном проекте',
-        everlast.textContent='Мини-игра на реакте',todo.innerText='Список дел на реакте',
-        rps.innerText='Камень-ножницы-бумага на ванильном js',git.innerText='Вы так же можете посмотреть код этих и других проектов на моем'
+        everlast.textContent = 'Мини-игра на реакте:',musicPartCalc.textContent='Небольшой музыкальный сервис на typescript: ', todo.textContent = 'Список дел на реакте: ',
+        rps.innerText = 'Камень-ножницы-бумага на ванильном js: ', git.innerText = 'Вы так же можете посмотреть код этих и других проектов на моем'
 
 })
 engButton.addEventListener('click', () => {
@@ -44,10 +44,10 @@ engButton.addEventListener('click', () => {
         loader.textContent = 'Loader', adjuster.textContent = '"JSC" Integral as an adjuster of technological equipmen',
         education.textContent = 'Education:', mscoe.textContent = 'Minsk State College of Electronics.\n' +
         'Specialization: Mechatronics( industrial controller programming).\n' +
-        'Mechatronic.',about_text.textContent = 'In free from work and study time, I am engaged in music (solo guitarist in a band), customization of clothes, sports. At this time keep learning front-end, and thirst to get real commercial experience on a real project.',
-        everlast.textContent='MiniGame on React: ',todo.innerText='To Do on React:',projects.innerText='My projects:'
-        rps.innerText='rock paper & scissors on vanil js: ',git.innerText='You can also view code of this project and others on my',about.textContent = 'About me:',
-            about_text.textContent = 'In free from work and study time, I am engaged in music (solo guitarist in a band), customization of clothes, sports. At this time keep learning front-end, and thirst to get real commercial experience on a real project.'
+        'Mechatronic.', about_text.textContent = 'In free from work and study time, I am engaged in music (solo guitarist in a band), customization of clothes, sports. At this time keep learning front-end, and thirst to get real commercial experience on a real project.',
+        everlast.textContent = 'MiniGame on React: ', todo.innerText = 'To Do on React:',musicPartCalc.textContent='Little music service of typescript: ', projects.innerText = 'My projects:'
+    rps.innerText = 'rock paper & scissors on vanil js: ', git.innerText = 'You can also view code of this project and others on my', about.textContent = 'About me:',
+        about_text.textContent = 'In free from work and study time, I am engaged in music (solo guitarist in a band), customization of clothes, sports. At this time keep learning front-end, and thirst to get real commercial experience on a real project.'
 
 })
 
